@@ -2,10 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 	Initializing a repository creates the .git folder, which allows tracking of any changes made to the contents of the file. 
 
 How is the staging area different from the working directory and the repository?
+	The staging area is a separate area where commits are copied from the working directory before being bundled and added together to the repository.
 What value do you think it offers?
-
+	It allows for the abovementioned bundling and also allows for the user to specify the contents of the commit before the commit is made.
+	
 How can you use the staging area to make sure you have one commit per logical
 change?
+	You can use the staging area to compare the code in the files added to the staging area with that in your working directory. By adding files selectively to the staging area, you can determine if the changes are related logically and should be part of the same commit. This also allows you to review the changes made in order to leave good documentation in the commit comment.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
