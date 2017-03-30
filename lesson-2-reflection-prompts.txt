@@ -10,8 +10,8 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 	You can use the staging area to compare the code in the files added to the staging area with that in your working directory. By adding files selectively to the staging area, you can determine if the changes are related logically and should be part of the same commit. This also allows you to review the changes made in order to leave good documentation in the commit comment.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches could be useful for adding an experimental feature or alternate version of your program that you want to develop alongside the main version. Making changes on a separate branch would allow you to experiment while preserving the main program for its own continued development.
 
 How do the diagrams help you visualize the branch structure?
 
